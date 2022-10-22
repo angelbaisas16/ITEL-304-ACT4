@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% extends 'base.html' %}
+	{% block content %}
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="{{ url_for('static', filename= 'css/periodictable.css' ) }}">
+	<title>PTBLOfLMNTS</title>
+
+</head>
+<body>
+<br>
+<h1 class="xx">Periodic table of ELEMENTS</h1>
+<br>
+ <table style="margin-top: -10px;">
+ 	<tr>
+ 		<td></td><td></td>
+		 <td style="   outline: none;
+		 border-color: #00fdff;
+		 background-color: #00fdff;
+		 color:#3c3c3c;
+		 font-size: 15px;
+		 text-shadow: 0 0 10px #00fdff;
+		box-shadow: 0 0 20px #00fdff;
+		text-align: center;">Alkali Metals
+	 </td>
+	 <td style="   outline: none;
+	 border-color: #ffa343;
+	 background-color: #ffa343;
+	 color:#3c3c3c;
+	 font-size: 15px;
+	 text-shadow: 0 0 10px #ffa343;
+	box-shadow: 0 0 20px #ffa343;
+	text-align: center;">Metalloids	
+	 </td>
+	 <td style="   outline: none;
+	 border-color: #c1f5fe;
+	 background-color: #c1f5fe;
+	 color:#3c3c3c;
+	 font-size: 15px;
+	 text-shadow: 0 0 10px #c1f5fe;
+	box-shadow: 0 0 20px #c1f5fe;
+	text-align: center;">Actinides
+	 </td>
+ 		<td style="  
+ 			outline: none;
+   			border-color: #FF3131;
+   			background-color: #FF3131;
+   			color:#3c3c3c;
+   			font-size: 15px;
+   			text-shadow: 0 0 10px #FF3131;
+  			box-shadow: 0 0 30px #FF3131;
+  			text-align: center;">Alkali Earth Metals	
+   		</td>
+	 <td style="   outline: none;
+		   border-color: #1F51FF;
+		   background-color: #1F51FF;
+		   color:#3c3c3c;
+		   font-size: 15px;
+		   text-shadow: 0 0 10px #1F51FF;
+		  box-shadow: 0 0 20px #1F51FF;
+		  text-align: center;">Reactive Non-Metals
+	   </td>
+	   <td style="   outline: none;
+	   border-color: #EBECF0;
+	   background-color: #EBECF0;
+	   color:#3c3c3c;
+	   font-size: 15px;
+	   text-shadow: 0 0 10px #EBECF0;
+	  box-shadow: 0 0 20px #EBECF0;
+	  text-align: center;">Unknown properties	
+   		</td>
+   		
+   		<td style="   outline: none;
+   			border-color: #8F00FF;
+   			background-color: #8F00FF;
+   			color:#3c3c3c;
+   			font-size: 15px;
+   			text-shadow: 0 0 10px #8F00FF;
+  			box-shadow: 0 0 20px #8F00FF;
+  			text-align: center;">Transition Metal	
+   		</td>
+		<td style="   outline: none;
+		   border-color: #FF10F0;
+		   background-color: #FF10F0;
+		   color:#3c3c3c;
+		   font-size: 15px;
+		   text-shadow: 0 0 10px #FF10F0;
+		  box-shadow: 0 0 20px #FF10F0;
+		  text-align: center;">Noble Gases
+	   </td>
+   		<td style="   outline: none;
+   			border-color: #39FF14;
+   			background-color: #39FF14;
+   			color:#3c3c3c;
+   			font-size: 15px;
+   			text-shadow: 0 0 10px #39FF14;
+  			box-shadow: 0 0 20px #39FF14;
+  			text-align: center;">Post-transition metals	
+   		</td>
+
+   		<td style="   outline: none;
+   			border-color: #FF5F1F;
+   			background-color: #FF5F1F;
+   			color:#3c3c3c;
+   			font-size: 15px;
+   			text-shadow: 0 0 10px #FF5F1F;
+  			box-shadow: 0 0 20px #FF5F1F;
+  			text-align: center;">Lanthanides	
+   		</td>
+
+ 	</tr>
+ </table>
+ <!--Tables!!!-->
+ <table >
+ 	<!--First Row-->
+
+ 	<tr>
+ 		<td class="nm" style="border-top-right-radius: 20px;"><p>1</p>H<h5>Hydrogen</h5></td>
+ 		<td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td style="box-shadow: none;pointer-events: none;"></td>
+		 <td style="box-shadow: none;pointer-events: none;"></td>
+		<td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td style="box-shadow: none;pointer-events: none;"></td>
+		<td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td style="box-shadow: none;pointer-events: none;"></td>
+		<td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td style="box-shadow: none;pointer-events: none;"></td>
+		<td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td class="nb"  style="border-top-left-radius: 20px;border-top-right-radius: 0px;"><p>2</p>He<h5>Helium</h5></td>
+ 	</tr>
+ 	 <!--Second Row-->
+ 	<tr>
+ 		<td class="am"><p>3</p>Li<h5>Lithium</h5></td>
+ 		<td  class="ae" style="border-top-right-radius: 20px;"><p>4</p>Be<h5>Beryllium</h5></td>
+		<td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td style="box-shadow: none;pointer-events: none;"></td>
+		 <td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td style="box-shadow: none;pointer-events: none;"></td>
+		<td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td style="box-shadow: none;pointer-events: none;"></td>
+		<td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td class="sm" style="border-top-left-radius: 20px;"><p>5</p>B<h5>Boron</h5></td>
+ 		<td class="nm"><p>6</p>C<h5>Carbon</h5></td>
+ 		<td class="nm"><p>7</p>N<h5>Nitrogen</h5></td>
+ 		<td class="nm"><p>8</p>O<h5>Oxygen</h5></td>
+ 		<td class="nm"><p>9</p>F<h5>Flourine</h5></td>
+ 		<td class="nb"><p>10</p>Ne<h5>Neon</h5></td>
+ 	</tr>
+ 	 <!--Third Row-->
+ 	<tr>
+ 		 <td class="am"><p>11</p>Na<h5>Sodium</h5></td>
+ 		<td class="ae"><p>12</p>Mg<h5>Magnesium</h5></td>
+		<td style="box-shadow: none;pointer-events: none;"></td>
+		<td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td style="box-shadow: none;pointer-events: none;"></td>
+		<td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td style="box-shadow: none;pointer-events: none;"></td>
+		<td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td class="bm"><p>13</p>Al<h5>Aluminum</h5></td>
+ 		<td class="sm"><p>14</p>Si<h5>Silicon</h5></td>
+ 		<td class="nm"><p>15</p>P<h5>Phosporus</h5></td>
+ 		<td class="nm"><p>16</p>S<h5>Sulfur</h5></td>
+ 		<td class="nm"><p>17</p>Cl<h5>Chlorine</h5></td>
+ 		<td class="nb"><p>18</p>Ar<h5>Argon</h5></td>
+ 	</tr>
+ 	<!--Fourth Row-->
+ 	<tr >
+ 		<td class="am"><p>19</p>K<h5>Potassium</h5></td>
+ 		<td class="ae"><p>20</p>Ca<h5>Calcium</h5></td>
+ 		<td  class="tm" style="border-top-right-radius: 20px;"><p>21</p>Sc<h5>Scandium</h5></td>
+		 <td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td  class="tm" style="border-top-left-radius: 20px;"><p>22</p>Ti<h5>Titanium</h5></td>
+ 		<td class="tm"><p>23</p>V<h5>Vanadium</h5></td>
+ 		<td class="tm"><p>24</p>Cr<h5>Chromium</h5></td>
+ 		<td class="tm"><p>25</p>Mn<h5>Manganese</h5></td>
+ 		<td class="tm"><p>26</p>Fe<h5>Iron</h5></td>
+ 		<td class="tm"><p>27</p>Co<h5>Cobalt</h5></td>
+ 		<td class="tm"><p>28</p>Ni<h5>Nickel</h5></td>
+ 		<td class="tm"><p>29</p>Cu<h5>Copper</h5></td>
+ 		<td class="tm"><p>30</p>Zn<h5>Zinc</h5></td>
+ 		<td class="bm"><p>31</p>Ga<h5>Galium</h5></td>
+ 		<td class="sm"><p>32</p>Ge<h5>Germanium</h5></td>
+ 		<td class="sm"><p>33</p>As<h5>Arsenic</h5></td>
+ 		<td class="nm"><p>34</p>Se<h5>Selenium</h5></td>
+ 		<td class="nm"><p>35</p>Br<h5>Bromine</h5></td>
+ 		<td class="nb"><p>36</p>Kr<h5>Krypton</h5></td>
+ 	</tr>
+ 	<!--Fifth Row-->
+ 	 	<tr>
+ 		<td class="am"><p>37</p>Rb<h5>Rubidium</h5></td>
+ 		<td class="ae"><p>38</p>Sr<h5>Strontium</h5></td>
+ 		<td class="tm"><p>39</p>Y<h5>Yttrium</h5></td>
+		 <td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td class="tm"><p>40</p>Zr<h5>Zirconium</h5></td>
+ 		<td class="tm"><p>41</p>Nb<h5>Niobium</h5></td>
+ 		<td class="tm"><p>42</p>Mo<h5>Molybdenum</h5></td>
+ 		<td class="tm"><p>43</p>Tc<h5>Technetium</h5></td>
+ 		<td class="tm"><p>44</p>Ru<h5>Rhutenuim</h5></td>
+ 		<td class="tm"><p>45</p>Rh<h5>Rhodium</h5></td>
+ 		<td class="tm"><p>46</p>Pd<h5>Palladium</h5></td>
+ 		<td class="tm"><p>47</p>Ag<h5>Silver</h5></td>
+ 		<td class="tm"><p>48</p>Cd<h5>Cadmium</h5></td>
+ 		<td class="bm"><p>49</p>In<h5>Indium</h5></td>
+ 		<td class="bm"><p>50</p>Sn<h5>Tin</h5></td>
+ 		<td class="sm"><p>51</p>Sb<h5>Antimony</h5></td>
+ 		<td class="sm"><p>52</p>Te<h5>Tellurium</h5></td>
+ 		<td class="nm"><p>53</p>I<h5>Iodine</h5></td>
+ 		<td class="nb"><p>54</p>Xe<h5>Xenon</h5></td>
+ 	</tr>
+ 	<!--Sixth Row-->
+ 	 	<tr">
+ 		<td class="am"><p>55</p>Cs<h5>Caesium</h5></td>
+ 		<td class="ae"><p>56</p>Ba<h5>Barium</h5></td>
+ 		<td class="l"><p>57</p>La<h5>Lanthanum</h5></td>
+		 <td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td class="tm"><p>72</p>Hf<h5>Hafnium</h5></td>
+ 		<td class="tm"><p>73</p>Ta<h5>Tantalum</h5></td>
+ 		<td class="tm"><p>74</p>W<h5>Tungsten</h5></td>
+ 		<td class="tm"><p>75</p>Re<h5>Rhenium</h5></td>
+ 		<td class="tm"><p>76</p>Os<h5>Osmium</h5></td>
+ 		<td class="tm"><p>77</p>Ir<h5>Iridium</h5></td>
+ 		<td class="tm"><p>78</p>Pt<h5>Platinum</h5></td>
+ 		<td class="tm"><p>79</p>Au<h5>Gold</h5></td>
+ 		<td class="tm"><p>80</p>Hg<h5>Mercury</h5></td>
+ 		<td class="bm"><p>81</p>Tl<h5>Thallium</h5></td>
+ 		<td class="bm"><p>82</p>Pb<h5>Lead</h5></td>
+ 		<td class="bm"><p>83</p>Bi<h5>Bismuth</h5></td>
+ 		<td class="bm"><p>84</p>Po<h5>Polonium</h5></td>
+ 		<td class="bm"><p>85</p>At<h5>Astatine</h5></td>
+ 		<td class="nb"><p>86</p>Rn<h5>Radon</h5></td>
+ 	</tr>
+ 	<!--Seventh Row-->
+ 	 	<tr>
+ 		<td  class="am" style="border-bottom-left-radius: 20px;"><p>87</p>Fr<h5>Francium</h5></td>
+ 		<td class="ae"><p>88</p>Ra<h5>Radium</h5></td>
+ 		<td class="ac" style="border-bottom-right-radius: 20px;"><p>89</p>Ac<h5>Actinium</h5></td>
+		 <td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td class="tm" style="border-bottom-left-radius: 20px;"><p>104</p>Rf<h5>Rutherfordium</h5></td>
+ 		<td class="tm"><p>105</p>Db<h5>Dubnium</h5></td>
+ 		<td class="tm"><p>106</p>Sg<h5>Seaborgium</h5></td>
+ 		<td class="tm"><p>107</p>Bh<h5>Bohrium</h5></td>
+ 		<td class="tm"><p>108</p>Hs<h5>Hassium</h5></td>
+ 		<td class="hal"><p>109</p>Mt<h5>Meitnerium</h5></td>
+ 		<td class="hal"><p>110</p>Ds<h5>Darmstadtium</h5></td>
+ 		<td class="hal"><p>111</p>Rh<h5>Roentgenium</h5></td>
+ 		<td class="hal"><p>112</p>Cn<h5>Copernicium</h5></td>
+ 		<td class="hal"><p>113</p>Nh<h5>Nihonium</h5></td>
+ 		<td class="hal"><p>114</p>Fl<h5>Flerovium</h5></td>
+ 		<td class="hal"><p>115</p>Mc<h5>Moscovium</h5></td>
+ 		<td class="hal"><p>116</p>Lv<h5>Livermorium</h5></td>
+ 		<td class="hal"><p>117</p>Ts<h5>Tennessine</h5></td>
+ 		<td class="nb" style="border-bottom-right-radius: 20px;"><p>118</p>Og<h5>Oganesson</h5></td>
+ 	</tr>		
+ </table>
+ <br>
+ <table>
+ 	<!--Eighth Row-->
+ 	 	<tr>
+		<td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td style="box-shadow: none;pointer-events: none;"></td>
+		<td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td  class="l" style="border-top-left-radius: 20px;"><p>58</p>Ce<h5>Cerium</h5></td>
+ 		<td class="l"><p>59</p>Pr<h5>Praseodymium</h5></td>
+ 		<td class="l"><p>60</p>Nd<h5>Neodymium</h5></td>
+ 		<td class="l"><p>61</p>Pm<h5>Promethium</h5></td>
+ 		<td class="l"><p>62</p>Sm<h5>Samarium</h5></td>
+ 		<td class="l"><p>63</p>Eu<h5>Europium</h5></td>
+ 		<td class="l"><p>64</p>Gd<h5>Gadolinium</h5></td>
+ 		<td class="l"><p>65</p>Tb<h5>Terbium</h5></td>
+ 		<td class="l"><p>66</p>Dy<h5>Dysprosium</h5></td>
+ 		<td class="l"><p>67</p>Ho<h5>Holmium</h5></td>
+ 		<td class="l"><p>68</p>Er<h5>Erbium</h5></td>
+ 		<td class="l"><p>69</p>Tm<h5>Thulium</h5></td>
+ 		<td class="l"><p>70</p>Yb<h5>Ytterbium</h5></td>
+ 		<td  class="l" style="border-top-right-radius: 20px;"><p>71</p>Lu<h5>Lutetium</h5></td>
+ 		<td style="box-shadow: none;pointer-events: none;"></td> 		
+ 	</tr>
+ 	<!--Last Row-->
+ 	 	<tr>
+		<td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td style="box-shadow: none;pointer-events: none;"></td>
+		<td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td style="box-shadow: none;pointer-events: none;"></td>
+ 		<td class="ac" style="border-bottom-left-radius: 20px;"><p>1</p>Th<h5>Thorium</h5></td>
+ 		<td class="ac"><p>91</p>Pa<h5>Protactinium</h5></td>
+ 		<td class="ac"><p>92</p>U<h5>Uranium</h5></td>
+ 		<td class="ac"><p>93</p>Np<h5>Neptunium</h5></td>
+ 		<td class="ac"><p>94</p>Pu<h5>Plutonium</h5></td>
+ 		<td class="ac"><p>95</p>Am<h5>Americium</h5></td>
+ 		<td class="ac"><p>96</p>Cm<h5>Curium</h5></td>
+ 		<td class="ac"><p>97</p>Bk<h5>Berkelium</h5></td>
+ 		<td class="ac"><p>98</p>Cf<h5>Californium</h5></td>
+ 		<td class="ac"><p>99</p>Es<h5>Einsteinium</h5></td>
+ 		<td class="ac"><p>100</p>Fm<h5>Fermium</h5></td>
+ 		<td class="ac"><p>101</p>Md<h5>Mendelevium</h5></td>
+ 		<td class="ac"><p>102</p>No<h5>Nobelium</h5></td>
+ 		<td class="ac" style="border-bottom-right-radius: 20px;"><p>103</p>Lr<h5>Lawrencium</h5></td>
+ 		<td class="ac" style="box-shadow: none;pointer-events: none;"></td> 		
+ 	</tr>
+ </table>
+ <br>
+ <h3 style="color:white;">Developer:</h3>
+ <h3 style="text-shadow: 0 0 10px #66ff00; color: #66ff00;color:#fcfafa;">Angel Louie R. Baisas</h3>
+ 
+</body>
+</html>
+{% endblock %}

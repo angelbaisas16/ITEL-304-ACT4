@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+{% block content %}
+<style>
+body 
+{
+	background-color: #0e0e0d;
+	font-family: Courier New;
+	font-size: 20px;	
+}
+h1 ,h2  
+ {
+    font-size: 50px;
+  font-family: Courier New;
+  color:#ffe3f1;
+  outline: none;
+  text-shadow: 0 0 40px #dfff11;
+  text-align: center;
+ }
+ tr {
+	font-size: 20px;
+	 text-shadow: 2px 2px #111111;
+ }
+ a{
+	color:aqua;
+ }
+ img
+{
+	border:7px solid rgba(3, 3, 3, 0.834);
+	display: block;
+}
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+	}
+.row {
+  display: flex;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+    <br><br>
+	<h1 style>{% block title %} Welcome to my Activity {% endblock %}</h1>
+<table id="header" border="0" cellspacing="0" cellpadding="0">
+		<tr bgcolor="white">
+			<td width="20px"></td>
+			<td width="151px" align="center">
+				<a href="MAct">Activity 1</a></td>
+			<td width="230px"></td>
+			<td width="151px" align="center">
+				<a href="MAct">Activity 2</a></td>
+			<td width="250px"></td>
+			<td width="155px" align="center">
+				<a href="MAct">Acitivity 3</a></td>
+		</tr></table>
+		<div class="row">
+			<div class="column">
+			  <img src="act1.png" style=width:200px;height:200px; style="width:100%">
+			</div>
+			<div class="column">
+			  <img src="act2.png" style=width:200px;height:200px; style="width:100%">
+			</div>
+			<div class="column">
+			  <img src="act3.png" style=width:200px;height:200px; style="width:100%">
+			</div>
+		  </div> 
+	
+	<table id="hp_tbl1" border="0" cellspacing="0" cellpadding="0">
+	{% endblock %}
